@@ -1,0 +1,53 @@
+/* Default styles */
+.background-image {
+  background-image: url('../images/bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .header-text {
+    width: 90%;
+    /* Adjust width for smaller screens */
+  }
+
+  .header-text {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+  }
+
+
+  p {
+    font-size: 20px;
+    
+  }
+}

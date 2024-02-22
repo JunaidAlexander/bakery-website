@@ -1,0 +1,20 @@
+
+.delivery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.delivery-container h1 {
+  font-size: 2.5rem;
+  color: #9c6033;
+  margin-bottom: 20px;
+}
+
+.delivery-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 15px;
+}
